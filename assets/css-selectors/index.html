@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>CSS Selectors</title>
+		
+	<style> 
+		* { font-size: 1.3rem;}
+
+		/* INPUT PSEUDO-CLASSES */
+
+		/* Styling a checkbox and its label, when user check it */
+		input[type=checkbox]:checked + label{
+			background-color: #60cc81;
+		}
+
+		/* Styling a checked checkbox (by default) and its label */
+		input[type=checkbox]:default + label{
+			background-color: #56bff6;
+		}
+
+		/* Styling all even checkbox */
+		input[type=checkbox]:nth-of-type(even) + label{
+			background-color: #f4a3d3;
+		}
+
+		/* Styling email insertion (valid) */
+		input[type=email]:valid {
+			background-color: #45f178;
+		}
+		
+		/* Styling email insertion (invalid) */
+		input[type=email]:invalid {
+			background-color: #f65656;
+		}
+
+		/* Styling number insertion (inside the range) */
+		input[type=number]:in-range {
+			background-color: #45f178;
+		}
+
+		/* Styling number insertion (outside the range) */
+		input[type=number]:out-of-range {
+			background-color: #f65656;
+		}	
+	
+		/* CONTENT PSEUDO-ELEMENT */
+
+		/* Styling first line of a paragraph */
+		p::first-line {
+			color: #f65656;
+		}
+
+		/* Styling first letter of a paragraph */
+		p::first-letter {
+			color: #45f178;
+		}
+
+		/* Styling the selection of paragraph */	
+		p::selection {
+			background-color: #f2ee6c;
+			
+		}
+
+			
+	</style>
+</head>
+<body>
+	<h1>CSS Selectors</h1>
+
+	<h2>Form</h2>
+	<form>
+    <input type="checkbox"><label for="1">Eat breakfast</label><br>
+    <input type="checkbox"><label for="2">Clean car</label><br>
+    <input type="checkbox"><label for="3">Grocery shopping</label><br>
+    <input type="checkbox" checked><label for="4">Play games</label><br>
+    <input type="checkbox" checked><label for="5">Take a nap</label><br>
+		<input type="checkbox"><label for="6">Do some work</label><br><br>
+		
+		<label for="email">Enter personal email </label>
+		<input type="email" id="email"/><br><br>
+		
+		<label for="num">Insert a number between 1 and 10 </label>
+		<input type="number" min="1" max="10"><br><br>
+
+		<button type="reset">Reset</button>
+	</form>
+
+	<h2>Content</h2>
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ipsum voluptates accusamus tempore repudiandae inventore officiis reiciendis, odio eligendi tenetur fugit architecto alias eaque dolorem voluptatem delectus! Delectus, modi consequuntur?</p>
+
+</body>
+</html>
