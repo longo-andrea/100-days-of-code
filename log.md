@@ -42,3 +42,16 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 - [SMACSS Tutorial](http://smacss.com/book/)
 - [CSS Selectors Example](assets/css-selectors/index.html) 
 
+### Day 4: October 6, 2019
+
+**Today's Progress**: 
+- I ended with [08/30] #javascript30 challenge (Fun with Canvas).
+- I kept reading SMACSS Tutorial, and I found an intersting chapter about depth of applicability. Going too deep with selectors increase dependency on the HTML structure, and obviouslly decrease maintenance efficency.
+- I also did some search about CSS validation, and I found that there is an official W3C online tool. But I was search for a Visual Studio Code plugin, so I had download [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass), although validation is not its main purpose, but in order to compile correctly it has to make syntax check. Yeah its meant for SASS, but if you don't know SASS syntax you can simply use classics CSS syntax. However I intend to learn SASS shortly.
+
+**Thoughts:** Tomorrow I will going on with #javascript30 and hopefully I'll finish SMACSS Tutorial.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+- [SMACSS Tutorial](http://smacss.com/book/)
+- [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
