@@ -55,3 +55,17 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
 - [SMACSS Tutorial](http://smacss.com/book/)
 - [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+
+### Day 5: October 7, 2019
+
+**Today's Progress**: 
+- [08/30] #javascript30 challenge completed (Dev Tools).
+- I going on with SMACSS Tutorial and some intersting thing went out. Class naming is always been a critical threads, everyone has is own idea and style, but follow some keypoints is a mandatory. So I am trying to improve my CSS coding style to keep separate HTML structure from style.
+- Besides I found an awesome quote: 'Good programmers like patterns'. A lot of programmers are annoyed by design patterns, or think to they as a secondary thing, but the art of re-use code is an important habit.
+- I made some searches about CSS Preprocessors. The main alternatives are: LESS, SASS and Stylus.
+
+**Thoughts:** As always tomorrow I will going on with #javascript30, later I must finish SMACSS Tutorial. Finally I have to choice one CSS Preprocessor, so I will compare some of them.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+- [SMACSS Tutorial](http://smacss.com/book/)
