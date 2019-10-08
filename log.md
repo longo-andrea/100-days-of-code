@@ -59,12 +59,25 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 ### Day 5: October 7, 2019
 
 **Today's Progress**: 
-- [08/30] #javascript30 challenge completed (Dev Tools).
+- [09/30] #javascript30 challenge completed (Dev Tools).
 - I going on with SMACSS Tutorial and some intersting thing went out. Class naming is always been a critical threads, everyone has is own idea and style, but follow some keypoints is a mandatory. So I am trying to improve my CSS coding style to keep separate HTML structure from style.
 - Besides I found an awesome quote: 'Good programmers like patterns'. A lot of programmers are annoyed by design patterns, or think to they as a secondary thing, but the art of re-use code is an important habit.
 - I made some searches about CSS Preprocessors. The main alternatives are: LESS, SASS and Stylus.
 
 **Thoughts:** As always tomorrow I will going on with #javascript30, later I must finish SMACSS Tutorial. Finally I have to choice one CSS Preprocessor, so I will compare some of them.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+- [SMACSS Tutorial](http://smacss.com/book/)
+
+### Day 6: October 8, 2019
+
+**Today's Progress**: 
+- [10/30] #javascript30, the streak go on (Hold Shift and Check Checkboxes).
+- I finally completed SMACSS Tutorial, and the last thing I got from it is the CSS code formatting. Though isn't fit my style, so I made some change. I want to suggest the reading of SMACSS Tutorial to all, because unfortunatly design patterns are often undervalue, even if they are a golden resource.
+- Yesterday I was thinking which CSS Preprocessor I should learn, some of you suggest SASS, moreover I saw that is the most used and supported.
+
+**Thoughts:** Tomorrow I will going on with #javascript30, then I start learning SASS and setting up my VSC, later I want to do a summary of what I learn from first week and think about what I should work for the next week.
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
