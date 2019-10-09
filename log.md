@@ -73,7 +73,7 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 ### Day 6: October 8, 2019
 
 **Today's Progress**: 
-- [10/30] #javascript30, the streak go on (Hold Shift and Check Checkboxes).
+- [11/30] #javascript30, the streak go on (Hold Shift and Check Checkboxes).
 - I finally completed SMACSS Tutorial, and the last thing I got from it is the CSS code formatting. Though isn't fit my style, so I made some change. I want to suggest the reading of SMACSS Tutorial to all, because unfortunatly design patterns are often undervalue, even if they are a golden resource.
 - Yesterday I was thinking which CSS Preprocessor I should learn, some of you suggest SASS, moreover I saw that is the most used and supported.
 
@@ -82,3 +82,16 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
 - [SMACSS Tutorial](http://smacss.com/book/)
+
+### Day 7: October 9, 2019
+
+**Today's Progress**: 
+- [10/30] #javascript30 challenge completed (Custom Video Player).
+- I set up Live Sass Compiler to work with SASS, and I tried some different configs.
+- I also read some article about SASS, to learn as much as possible before start working with it. I got that SASS extend CSS with some feature like: nested rules, variables (standard CSS also has, but SASS make it more powerful), functions, mixins, and more.
+
+**Thoughts:** Tomorrow I will going on with #javascript30, then I want to try coding some SASS.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+
