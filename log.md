@@ -73,7 +73,7 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 ### Day 6: October 8, 2019
 
 **Today's Progress**: 
-- [11/30] #javascript30, the streak go on (Hold Shift and Check Checkboxes).
+- [10/30] #javascript30, the streak go on (Hold Shift and Check Checkboxes).
 - I finally completed SMACSS Tutorial, and the last thing I got from it is the CSS code formatting. Though isn't fit my style, so I made some change. I want to suggest the reading of SMACSS Tutorial to all, because unfortunatly design patterns are often undervalue, even if they are a golden resource.
 - Yesterday I was thinking which CSS Preprocessor I should learn, some of you suggest SASS, moreover I saw that is the most used and supported.
 
@@ -86,7 +86,7 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 ### Day 7: October 9, 2019
 
 **Today's Progress**: 
-- [10/30] #javascript30 challenge completed (Custom Video Player).
+- [11/30] #javascript30 challenge completed (Custom Video Player).
 - I set up Live Sass Compiler to work with SASS, and I tried some different configs.
 - I also read some article about SASS, to learn as much as possible before start working with it. I got that SASS extend CSS with some feature like: nested rules, variables (standard CSS also has, but SASS make it more powerful), functions, mixins, and more.
 
@@ -95,3 +95,15 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
 
+### Day 8: October 10, 2019
+
+**Today's Progress**: 
+- [12/30] Today I completed #javascript30 challenge (Key Sequence Detection).
+- I read SASS Basics tutorial to get a general idea of what it is, and what is the main features that improve standard CSS. So I made a simple example to test them.
+- Briefly I worked with: vars (which are extremely much easier than CSS ones), modules (this feature is very useful to split the code), mixins (are useful especially for vendor prefixes), Inheritance (is a core functionalities of SASS, because it allow the application of DRY principle), Operators (allow to do maths calcs more easiy than calc() in CSS). And last a critical feature, nesting... Nesting is very useful, but often is overused... In CSS the too longer selectors are a bad practice, and nesting can be tempting, so as edge case we can go 3 levels deeper, more is extremely rare case.
+
+**Thoughts:** As every day tomorrow I will going on with #javascript30, and also with SASS tutorial, I want to reach a good base, in this way I can start some 'useful' practice exercise.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+- [SASS Basics](https://sass-lang.com/guide)
