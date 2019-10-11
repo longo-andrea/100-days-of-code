@@ -102,8 +102,19 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 - I read SASS Basics tutorial to get a general idea of what it is, and what is the main features that improve standard CSS. So I made a simple example to test them.
 - Briefly I worked with: vars (which are extremely much easier than CSS ones), modules (this feature is very useful to split the code), mixins (are useful especially for vendor prefixes), Inheritance (is a core functionalities of SASS, because it allow the application of DRY principle), Operators (allow to do maths calcs more easiy than calc() in CSS). And last a critical feature, nesting... Nesting is very useful, but often is overused... In CSS the too longer selectors are a bad practice, and nesting can be tempting, so as edge case we can go 3 levels deeper, more is extremely rare case.
 
-**Thoughts:** As every day tomorrow I will going on with #javascript30, and also with SASS tutorial, I want to reach a good base, in this way I can start some 'useful' practice exercise.
+**Thoughts:** As every day tomorrow I will going on with #javascript30, and also with SASS tutorial, I want to reach a good base, in this way I can start some 'useful' practice exercise. 
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
 - [SASS Basics](https://sass-lang.com/guide)
+
+### Day 9: October 11, 2019
+
+**Today's Progress**: 
+- [13/30] Today I completed #javascript30 challenge (Slide in on Scroll).
+- I worked with SASS, mainly with selectors. I tried some advanced selectors given by SCSS syntax, and I worked with nesting, so I took care to how deep I was going with nesting, and which is the best way to nest.
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and also I want to go deeper with SASS modules and inheritance.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
