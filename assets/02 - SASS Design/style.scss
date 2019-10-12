@@ -1,0 +1,100 @@
+$font: 'Helvetica';
+
+$text-color: #303030;
+
+$primary-color: #fff;
+$secondary-color: #acff5e;
+$border-color: #888;
+
+$logo-color: #84ba47;
+
+%content-box {
+    margin: 10px 20px;
+
+    border: 1px solid $border-color;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: $font;
+}
+
+.navbar {
+    width: 100%;
+    
+    display: flex;
+    padding: 10px;
+
+    background: darken($primary-color, 1%);
+    box-shadow: 0 3px 10px #888888;
+}
+
+.logo {
+    width: 300px;
+
+    margin: 0;
+
+    font-size: 2.9rem;
+    text-align: center;
+
+    color: $logo-color;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+
+    .nav-item {
+        height: 100%;
+
+        padding: 15px 20px;
+        float: left;
+
+        font-size: 1.1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $text-color;
+
+        &:hover {
+            background: rgba($secondary-color, 0.7);
+        }
+    }
+}
+
+.container {
+    width: 80vw;
+
+    margin: 0 auto;
+    padding: 50px 0;
+
+
+    border: 4px solid red;
+}
+
+.main-content {
+    @extend %content-box;
+    
+    width: 50%;
+}
+
+.secondary-content {
+    @extend %content-box;
+
+    width: 30%;
+}
+
+.img-full {
+    width: 100%;
+}
+
+.img-small {
+    width: 30%;
+}

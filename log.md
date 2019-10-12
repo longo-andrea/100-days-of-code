@@ -118,3 +118,15 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+
+### Day 10: October 12, 2019
+
+**Today's Progress**: 
+- [14/30] Completed another #javascript30 challenge (JS Reference vs Copying)
+- I read a lot of tutorials and articles on OOCSS(Object Oriented CSS) desing patterns, and I think it is more actual than SMACSS.
+- Last I finally start coding, I tried to apply OOCSS at the best. 
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and I wish to complete the simple layout that I started today.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
