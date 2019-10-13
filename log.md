@@ -129,4 +129,14 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 **Thoughts:** Tomorrow I will going on with #javascript30, and I wish to complete the simple layout that I started today.
 
 **Link to work:**
-- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
+
+### Day 11: October 13, 2019
+
+**Today's Progress**: 
+- [15/30] Completed #javascript30 LocalStorage challenge
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and I wish to complete the simple layout that I started today.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
