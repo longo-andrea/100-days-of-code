@@ -144,7 +144,7 @@ I made a stupid [html doc](assets/css-selectors/index.html) to test some selecto
 ### Day 12: October 14, 2019
 
 **Today's Progress**: 
-- [16/30] I completed into #javascript30 challenge (Mouse Move Shadow)
+- [16/30] I completed #javascript30 challenge (Mouse Move Shadow)
 - As planned I also finished CSS design, the target wasn't to make a beautiful design but rather try to apply OOCSS design pattern. The main key points of this pattern desing is: avoid descendent selector (like .sidebar > h3), avoid IDs (only in stylesheet), avoid to attaching classes to element selector (like div.header), and try to avoid !important keyword.
 Obviously this isn't a maths method that must be applied step by step, but rather a scheme to keep in mind while coding.
 Besides it can be easily applied to small projects, bigger projects require more awareness.
@@ -152,6 +152,20 @@ A good thing that help me, was to think the DOM elements not for what it have to
 For example a textual logo is still the same either in header or footer, so we can give to it a default styles, and eventually add some customization later.
 
 **Thoughts:** Tomorrow I will going on with #javascript30, and maybe start with CSS animations.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+
+### Day 13: October 15, 2019
+
+**Today's Progress**: 
+- [17/30] I completed 17th #javascript30 challenge (Sort Without Articles). Intersting challenge that allow to apply some arrays knoledge.
+- I spent a couple hours on CSS Transitions and Animations. And I also realized a small project, some car moving during sunrise and sunset (wooo!).
+CSS Transition are very useful for small... transitions. Thanks to cubic-bezier property, they can be more realistics.
+Instead CSS Animation are very useful, and with keyframes @-rule, we can make very complex animations.
+I plant to go deeper with transitions, though are less powerful than animations, they can be applied widely for small effects, saving a lot of javascript code.
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and also work on more 'realistic' CSS transitions.
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
