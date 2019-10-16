@@ -169,3 +169,15 @@ I plant to go deeper with transitions, though are less powerful than animations,
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
+
+### Day 14: October 16, 2019
+
+**Today's Progress**: 
+- [18/30] I completed 17th #javascript30 challenge (Adding Up Times with Reduce). Another useful challenge to work with arrays methods.
+- Since I completed second week of #100DaysOfCode I had spent a lot of time to summarize what I have reached, so then I adjust my learning path for the incoming week. I got a good knowledge about HTML5 structure, how to separate semantic from style, IDs and Classes naming, and also some basic notion about accessibility. Regarding CSS I have learned about main Design Patterns and Animations, and tried to master them by making some pages. Meantime, also thanks to #javasript30 challenge I could improve my JS skills.
+So for the next week I want to read about CSS Flexbox and Grid, and as soon as possible start a small project to put it all together.
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and start reading about CSS Flexbox.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
