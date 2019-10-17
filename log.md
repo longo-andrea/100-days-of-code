@@ -173,11 +173,22 @@ I plant to go deeper with transitions, though are less powerful than animations,
 ### Day 14: October 16, 2019
 
 **Today's Progress**: 
-- [18/30] I completed 17th #javascript30 challenge (Adding Up Times with Reduce). Another useful challenge to work with arrays methods.
+- [18/30] I completed 18th #javascript30 challenge (Adding Up Times with Reduce). Another useful challenge to work with arrays methods.
 - Since I completed second week of #100DaysOfCode I had spent a lot of time to summarize what I have reached, so then I adjust my learning path for the incoming week. I got a good knowledge about HTML5 structure, how to separate semantic from style, IDs and Classes naming, and also some basic notion about accessibility. Regarding CSS I have learned about main Design Patterns and Animations, and tried to master them by making some pages. Meantime, also thanks to #javasript30 challenge I could improve my JS skills.
 So for the next week I want to read about CSS Flexbox and Grid, and as soon as possible start a small project to put it all together.
 
 **Thoughts:** Tomorrow I will going on with #javascript30, and start reading about CSS Flexbox.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
+
+### Day 15: October 17, 2019
+
+**Today's Progress**: 
+- [19/30] 19th #javascript30 challenge was completed (Webcam Fun). It was a funny projects. I found useful that inside the tutorial there is a deprecated function (createObjectURL()), so I had the opportunity to do some search and use official doc. I trying to avoid stackoverflow, because 'Copy and Paste' technique is not useful for learning scope.
+- I read about Layout, present and past techniques, and some important points came out. Normal flow is the way that elements are displayed without any changes, often is an undervalue stuff, but a webpage must be readable even without styles, because their loading may fail, or maybe there is some user that can't even see a page (screen reader's users). Layouting with Floats is a past method, but we can found it yet in some circumstances. Positioned layout also exist, but may be dangerous because affect document flow. Flex layouts that are one-dimensional layout, often is misunderstood, people try to make two-dimensional layout with flexbox, that isn't what is designed for. Last method is  Grid layout method that is two-dimensional layout, that allow to define a layout like a... grid.
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and start going deeper with Flexbox layout.
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
