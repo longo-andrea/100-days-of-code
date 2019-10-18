@@ -192,3 +192,15 @@ So for the next week I want to read about CSS Flexbox and Grid, and as soon as p
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
+
+### Day 16: October 18, 2019
+
+**Today's Progress**: 
+- [20/30] Two/third of #javascript30 challenge were go (Speech Detection). I'm really happy with how I worked, I can figured out with an object that I never used only with documentation. yeah it is a small step, but is something... and something is always better than nothing.
+- I also started reading about Flexbox Layout, from [freeCodeCamp](https://www.freecodecamp.org/news/the-ultimate-guide-to-flexbox-learning-through-examples-8c90248d4676/) tutorial.
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and start to building a Flexbox Layout.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
+- [freeCodeCamp](https://www.freecodecamp.org/news/the-ultimate-guide-to-flexbox-learning-through-examples-8c90248d4676/)
