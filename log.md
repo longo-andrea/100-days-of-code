@@ -204,3 +204,15 @@ So for the next week I want to read about CSS Flexbox and Grid, and as soon as p
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
 - [freeCodeCamp](https://www.freecodecamp.org/news/the-ultimate-guide-to-flexbox-learning-through-examples-8c90248d4676/)
+
+### Day 17: October 19, 2019
+
+**Today's Progress**: 
+- [21/30] challenge of #javascript30 is gone (Geolocation).
+- I also start working with Flexbox. At first glance it was a bit tedious, I couldn't get flex-items to work, but at each attempt I could understood something. I made a simple web page, the design is terrible, but the scope was only to work with Flexbox.
+As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't designed for main layout, but rather for inner layouts like the galleries, or similar jobs.
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and start reading about Grid Layout.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 

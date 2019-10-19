@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Helvetica";
+}
+
+.title {
+  margin: 40px;
+  color: #5ead68;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 40%;
+          flex: 0 40%;
+  margin: 15px;
+  padding: 25px;
+  -webkit-box-shadow: 1px 1px 15px rgba(48, 48, 48, 0.7);
+          box-shadow: 1px 1px 15px rgba(48, 48, 48, 0.7);
+  border: 1px solid #303030;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.container .card .card-cover {
+  width: calc(100% - 50px);
+}
+
+.text-content-small {
+  width: 80%;
+  margin: 20px 0;
+  padding: 5px 15px;
+}
+/*# sourceMappingURL=style.css.map */
