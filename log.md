@@ -216,3 +216,13 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
+
+### Day 18: October 20, 2019
+
+**Today's Progress**: 
+- [22/30] Completed another #javascript30 challenge (Follow Along Link Highlighter).
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and start reading about Grid Layout.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
