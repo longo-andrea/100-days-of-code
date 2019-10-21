@@ -225,4 +225,15 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 **Thoughts:** Tomorrow I will going on with #javascript30, and start reading about Grid Layout.
 
 **Link to work:**
-- [JavaScript 30](https://github.com/longo-andrea/JavaScript30) 
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+
+### Day 19: October 21, 2019
+
+**Today's Progress**: 
+- [23/30] Completed another #javascript30 challenge (Speech Synthesis).
+- I started to read about CSS Grid, I didn't code, but hopefully tomorrow I'll do some exercise. Until now I learned that Grid Layout is very poweful, more than Flexbox. Better said that Grid and Flexbox togheter are a great couple. Grid is intended for web page layout, Flexbox is useful for inside layout, like photo galleries. Unfortunately is not that easy to find grid in web pages, because a lot of web developers are afraid by older browser compatibility (or maybe are just too lazy to learn a new tech). But nowadays is widely implemented, even by IE, there is some Grid properties (such as Grid-gap, grid-template-areas) that isn't fully supported. Anyway for these properties there are some workarounds.
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and I'll start exercising with CSS Grid Layout.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
