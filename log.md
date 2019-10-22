@@ -237,3 +237,14 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+
+### Day 20: October 22, 2019
+
+**Today's Progress**: 
+- [24/30] Completed another #javascript30 challenge (Sticky Nav). Some useful tips about transitions came out from this challenge.
+- I did some comparisons between Flexbox and Grid Layouts. As I expected (not because I'm a genius, but because I read about it), Flexbox is useful for one direction layout, if you want to do more complex it become tough. Even if I didn't start with Grid yet, I think that is more intuitive and handy (maybe i'll change my mind).
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and I'll start exercising with CSS Grid Layout.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
