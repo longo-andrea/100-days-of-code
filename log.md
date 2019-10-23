@@ -248,3 +248,14 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+
+### Day 21: October 23, 2019
+
+**Today's Progress**: 
+- [25/30] Completed another #javascript30 challenge (Event Capture, Propagation, Bubbling and Once).
+- I started working with CSS Grid and I also built a simple (and ugly) Layout, to test some Grid properties. As I alredy said, I found Grid easiest than Flexbox. Now I want to going deeper with Grid, because there are a lot of properites that I haven't understand well.
+
+**Thoughts:** Tomorrow I will going on with #javascript30, and I'll going deeper with CSS Grid.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
