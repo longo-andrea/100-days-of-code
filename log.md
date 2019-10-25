@@ -263,9 +263,21 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 ### Day 22: October 24, 2019
 
 **Today's Progress**: 
-- [25/30] Completed another #javascript30 challenge (Stripe Follow Along Nav). Great workout for JS.
+- [26/30] Completed another #javascript30 challenge (Stripe Follow Along Nav). Great workout for JS.
 
 **Thoughts:** Tomorrow I will going on with #javascript30, and I'll going deeper with CSS Grid.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+
+### Day 23: October 25, 2019
+
+**Today's Progress**: 
+- [27/30] Completed another #javascript30 challenge (Click and Drag).
+- I have read a lot about CSS Grid, mainly about the shorthands (is not that easy with Grid) and best practices.
+- I also read some articles about CSS units. There are a lot of code that still use px or pt as units. Considering the amount of devices available nowday (each one with different sizes), theese units can bring some problems, or we can define a tons of @media sheet (wrong). Px and pt were useful for printed paper, not for the screen, they were included in CSS to help designer the transition from paper to screen. Rather there are em and rem that were designed for screens.
+
+**Thoughts:** Tomorrow I will going on with #javascript30.
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
