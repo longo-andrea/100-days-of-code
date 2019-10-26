@@ -281,3 +281,13 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+
+### Day 24: October 26, 2019
+
+**Today's Progress**: 
+- [28/30] Completed another #javascript30 challenge (Video Speed Controller).
+
+**Thoughts:** Tomorrow I will going on with #javascript30.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
