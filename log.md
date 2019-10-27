@@ -291,3 +291,14 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+
+### Day 25: October 27, 2019
+
+**Today's Progress**: 
+- [29/30] Completed another #javascript30 challenge (Countdown Timer).
+- I went deeper with CSS units. I read a lot about relative units, like em/rem and also vw/vh. I did some tests with em/rem to get a better understaning. What I learnt is that em units are useful to get more modular components, but can bring to unpleasant surprises, so are a little bit hard-working. Rather, the rem units are easier to understand than the em units, on the other hand they lead to less modular components.
+
+**Thoughts:** Tomorrow I will finish with #javascript30.
+
+**Link to work:**
+- [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
