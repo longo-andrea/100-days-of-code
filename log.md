@@ -312,3 +312,10 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 
 **Link to work:**
 - [JavaScript 30](https://github.com/longo-andrea/JavaScript30)
+
+### Day 27: October 29, 2019
+
+**Today's Progress**: 
+- I started working on first JS30 customizing project. The idea is to show a digital clock, with the time of the city choose by user. Moreover appear suggestions while typing with a list of available cities. Today I worked only on script, tomorrow I will focus on style.
+
+**Thoughts:** Tomorrow I will going on with Timezone Clock.
