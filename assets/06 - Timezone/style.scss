@@ -1,0 +1,214 @@
+$color: #303030;
+$hover: #ffe100;
+
+$background-gradient: linear-gradient(135deg, rgba(203,201,238,1) 0%, rgba(115,115,247,1) 54%, rgba(0,212,255,1) 100%);
+$background-sec: #fff;
+
+/* DARK MODE COLORS */
+$color-d: #fff;
+$hover-d: #595959;
+
+$background-d: #303030;
+$background-sec-d: #888;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    transition: background .8s ease-out;
+}
+
+html {
+    font-family: sans-serif;
+    color: $color;
+}
+
+body {
+    height: 100vh;
+
+    padding: 2rem 5rem;
+
+    background: $background-gradient;
+    background-repeat: no-repeat;
+}
+
+.content {
+    width: 1024px;
+    height: 60%;
+
+    margin: 0 auto;
+    padding: 3em;
+
+    background: rgba($background-sec, .7);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    &.sub-title {
+        color: lighten($color, 20%);
+    }
+}
+
+#search {
+    margin: 2rem 0;
+
+    font-size: 1.5rem;
+
+    label {
+        display: inline-block; 
+        width: 8rem;
+        height: 2.5rem;
+    }
+
+    input {
+        width: 25rem;
+        height: 2.5rem;
+
+        border: none;
+        border-radius: 4px;
+    }
+
+    .suggestions {
+        width: 25rem;
+        max-height: 60vh;
+        margin-left: 8.4rem;
+
+        list-style-type: none;
+        overflow-y: scroll;
+
+        li {
+            padding: 1rem;
+
+            background: $background-sec;
+            border: 1px solid darken($background-sec, 10%);
+
+            &:hover {
+                background: $hover;
+            }
+        }
+    }
+}
+
+#time {
+    margin: 2rem 0;
+
+    h2 {
+        margin: 2rem 0;
+    }
+
+    #hour {
+        padding: .7rem;
+
+        font-size: 6rem;
+        color: #fff;
+        background: #303030;
+        border-radius: 4px;
+    }
+
+    #mins {
+        padding: .7rem;
+
+        font-size: 6rem;
+        color: #fff;
+        background: #303030;
+        border-radius: 4px;
+    }
+
+    #secs {
+        padding: .7rem;
+
+        font-size: 6rem;
+        color: #fff;
+        background: #303030;  
+        border-radius: 4px;   
+    }
+}
+
+/* DARK MODE */
+.switch {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark {
+    color: $color-d;
+    background: $background-d;
+
+    .content {
+        background: rgba($background-sec-d, .7);
+    }
+
+    .sub-title {
+        color: darken($color-d, 20%);
+    }
+
+    #search .suggestions li {
+        background: $background-sec-d;
+
+        &:hover {
+            background: $hover-d;   
+        }
+    }
+
+}

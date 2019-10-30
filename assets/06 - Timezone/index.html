@@ -7,23 +7,33 @@
 
     <title>Timezone</title>
 
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <h1>Timezone</h1>
+    <div class="content">
+        <h1>Timezone</h1>
+        <p class="sub-title">Choose your Timezone to display the hour.</p>
+    
+        <form id="search">
+            <label for="city">Insert city</label>
+            <input type="text" id="city">
+            <ul class="suggestions">
+            </ul>
+        </form>
+    
+        <div id="time">
+            
+        </div>
+    </div>
 
-    <form id="search">
-        <label for="city">Insert city</label>
-        <input type="text" id="city">
-        <ul class="suggestions">
-        </ul>
-    </form>
-
-    <h2 id="time">
-        
-    </h2>
+    <label class="switch">
+        <input id="dark-mode" type="checkbox">
+        <span class="slider round"></span>
+    </label>    
 
     <script src="script.js"></script>
 </body>
 </html>
+
+

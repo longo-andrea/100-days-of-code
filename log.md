@@ -319,3 +319,11 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 - I started working on first JS30 customizing project. The idea is to show a digital clock, with the time of the city choose by user. Moreover appear suggestions while typing with a list of available cities. Today I worked only on script, tomorrow I will focus on style.
 
 **Thoughts:** Tomorrow I will going on with Timezone Clock.
+
+### Day 28: October 30, 2019
+
+**Today's Progress**: 
+- Completed first JS30 customizing project. I worked on style, tried some SCSS functions, like darken and lighten. Also added dark mode that switch the design to darken colors. Moreover, fixed the script to extract time information and worked with substring function.
+
+**Thoughts:** Tomorrow I will start with another JS30 customizing project.
+

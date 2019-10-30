@@ -1,4 +1,5 @@
 const endpoint = 'http://worldtimeapi.org/api/timezone/America';
+const search = document.querySelector('#search');
 const suggestions = document.querySelector('.suggestions');
 const time = document.querySelector('#time');
 let cities = [];
@@ -38,12 +39,14 @@ function fillSuggestionsList(e) {
 
         suggestions.innerHTML = html;
     }
+
 }
 
 function selectCity(e) {
     const selectedCity = e.target.textContent;
 
     suggestions.innerHTML = '';
+    search.querySelector('input').value = "";
 
     setTimezone(selectedCity);
 }
@@ -54,17 +57,35 @@ function setTimezone(city) {
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             const jsonData = JSON.parse(xhttp.responseText);
+            const hours = jsonData.datetime.substring(
+                jsonData.datetime.lastIndexOf("T") + 1,
+                jsonData.datetime.lastIndexOf(".")
+            );
+            const hour = hours.substring(0, hours.indexOf(':'));
+            const mins = hours.substring(hours.indexOf(':') + 1, hours.indexOf(':', hours.indexOf(':') + 1));
+            const secs = hours.substring(hours.lastIndexOf(':') + 1, hours.length);
             
-            time.textContent = jsonData.datetime;
+            time.innerHTML = `<h2> You have selected: ${city}! </h2>
+                <span id="hour">${hour}</span>
+                <span id="mins">${mins}</span>
+                <span id="secs">${secs}</span>`;
         }
     };
 
     xhttp.open("GET", `http://worldtimeapi.org/api/timezone/America/${city}`);
     xhttp.send();
-
 }
 
-document.querySelector('#search').addEventListener('input', fillSuggestionsList);
-document.querySelector('#search').addEventListener('submit', e => {e.preventDefault();});
+search.addEventListener('input', fillSuggestionsList);
+search.addEventListener('submit', e => {e.preventDefault();});
 suggestions.addEventListener('click', selectCity);
 
+/* DARK MODE */
+const darkCheck = document.querySelector('#dark-mode');
+
+darkCheck.addEventListener('change', (e) => {
+    if(e.target.checked)
+        document.querySelector('body').classList.add('dark');
+    else    
+        document.querySelector('body').classList.remove('dark');
+});
