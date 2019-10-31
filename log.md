@@ -327,3 +327,9 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 
 **Thoughts:** Tomorrow I will start with another JS30 customizing project.
 
+### Day 29: October 31, 2019
+
+**Today's Progress**: 
+- Today I read about CSS at-rules. There are different at-rules, like @import, @font-face, @keyframes, but one the most common is @media. Media queries are very powerful, allow us to adjust our CSS stylesheet based on device used, viewport, screen pixel density. We can choose between all (default), screen, print and speech. Or we can choose to define our max-width (min-width). Moreover, we can also mix them together with logical operators, to get more powerful media queries.
+
+**Thoughts:** Tomorrow I will start with another JS30 customizing project.
