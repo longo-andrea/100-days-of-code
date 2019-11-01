@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Array Filter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form id="object">
+            <input type="text" name="item" placeholder="Item Name" required>
+            <input class="button" type="submit" value="Add Item">
+        </form>
+    
+        <div id="functions">
+            <input class="button" type="button" value="Increasing order" data-filter="increasing">
+            <input class="button" type="button" value="Decreasing order" data-filter="decreasing">
+            <input class="button" type="button" value="A count" data-filter="a-count">
+            <input class="button" id="shift" type="button" value="Shift">
+            <input type="number" value="5" min="-10" max="10" data-filter="shift">
+        </div>
+    
+        <ul id="object-list">
+    
+        </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+body {
+    padding: 5rem;   
+    
+    background: #d6d6d6;
+}
+
+.container {
+    max-width: 1024px;
+    height: calc(100vh - 10em);
+    margin: 0 auto;
+    padding: 2rem;
+
+    background-color: rgba(107, 255, 179, .5);
+    border-radius: 2rem;
+    box-shadow: 0 0 15px #303030;
+
+    overflow: hidden;
+}
+
+#object {
+    margin: 2em 0;
+}
+
+#object > input[type=text] {
+    width: 12rem;
+    height: 1.7rem;
+}
+
+#object > input[type=submit] {
+    width: 5rem;
+    height: 1.7rem;
+    padding: 0;
+}
+
+#functions > input[type=number] {
+    width: 5rem;
+    height: 1.7rem;
+}
+
+#object-list {
+    padding: 3rem 2rem;
+
+    color: #303030;
+    list-style-type: square;
+}
+
+#object-list > li {
+    font-size: 1.5rem;
+}
+
+.button {
+    padding: .5rem 1rem;
+
+    color: #fff;
+    background: #505050;
+    border: none;
+    border-radius: 4px;
+}
