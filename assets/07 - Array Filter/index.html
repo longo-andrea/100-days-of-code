@@ -12,22 +12,43 @@
 <body>
     
     <div class="container">
-        <form id="object">
-            <input type="text" name="item" placeholder="Item Name" required>
-            <input class="button" type="submit" value="Add Item">
+
+        <form id="person-data">
+            <span>First name</span><input type="text" name="firstname" placeholder="First name" required><br />
+            <span>Last name</span><input type="text" name="lastname" placeholder="Last name" required><br />
+            <span>Nickname</span><input type="text" name="nickname" placeholder="nickname" required><br />
+            <span>Age</span><input type="number" name="age" min="0" max="120" required><br />
+            <input class="button" type="submit" value="Add Person">
         </form>
     
-        <div id="functions">
-            <input class="button" type="button" value="Increasing order" data-filter="increasing">
-            <input class="button" type="button" value="Decreasing order" data-filter="decreasing">
-            <input class="button" type="button" value="A count" data-filter="a-count">
-            <input class="button" id="shift" type="button" value="Shift">
-            <input type="number" value="5" min="-10" max="10" data-filter="shift">
+        <div class="functions">
+            <h2>Name Functions</h2>
+            <input id="increasing-name" class="button" type="button" value="Increasing order">
+            <input id="decreasing-name" class="button" type="button" value="Decreasing order">
         </div>
-    
-        <ul id="object-list">
-    
+
+        <div class="functions">
+            <h2>Lastname Functions</h2>
+            <input id="increasing-lastname" class="button" type="button" value="Increasing order">
+            <input id="decreasing-lastname" class="button" type="button" value="Decreasing order">
+        </div>
+
+        <div class="functions">
+            <h2>Nickname Functions</h2>
+            <input id="increasing-nickname" class="button" type="button" value="Increasing order">
+            <input id="decreasing-nickname" class="button" type="button" value="Decreasing order">
+        </div>
+
+        <div class="functions">
+            <h2>Age Functions</h2>
+            <input id="increasing-age" class="button" type="button" value="Increasing order">
+            <input id="decreasing-age" class="button" type="button" value="Decreasing order">
+            <input id="total-age" class="button" type="button" value="Total age">
+        </div>
+
+        <ul id="people-list">
         </ul>
+
     </div>
 
 

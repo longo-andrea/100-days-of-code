@@ -1,68 +1,109 @@
-const object = document.querySelector('#object');
-const objectList = document.querySelector("#object-list");
-const increasingButton = document.querySelector('[data-filter="increasing"]');
-const decreasingButton = document.querySelector('[data-filter="decreasing"]');
-const acountButton = document.querySelector('[data-filter="a-count"]');
-const shiftValue = document.querySelector('[data-filter="shift"]');
-const shiftButton = document.querySelector('#shift');
-const values = [];
+const data = document.querySelector('#person-data');
+const firstName = document.querySelector('[name=firstname]');
+const lastName = document.querySelector('[name=lastname]');
+const nickName = document.querySelector('[name=nickname]');
+const age = document.querySelector('[name=age]');
+const peopleList = document.querySelector("#people-list");
+const people = [];
 
-function insertObject(e) {
+function addPerson(e) {
     e.preventDefault();
 
-    const text = (this.querySelector('[name=item]')).value;
+    people.push({
+        firstName: `${firstName.value}`,
+        lastName: `${lastName.value}`,
+        nickName: `${nickName.value}`,
+        age: parseInt(`${age.value}`)
+    });
 
-    values.push(text);
-
-    showValues(objectList, values);
+    showPeople();
     this.reset();
 }
 
-function showValues(objectList, values) {
-    objectList.innerHTML = values.map(value => {
-        return `<li>${value}</li>`
+function showPeople() {
+    peopleList.innerHTML = people.map(person => {
+        return `<li>
+            <span>Name: <strong>${person.firstName}</strong></span>
+            <span>Lastname: <strong>${person.lastName}</strong></span>
+            <span>Nickname: <strong>${person.nickName}</strong></span>
+            <span>Age: <strong>${person.age}</strong></span>
+            </li>`
     }).join('');
 }
 
-function increasingOrder() {
-    values.sort((a, b) => a > b ? 1 : -1);
+data.addEventListener('submit', addPerson);
 
-    showValues(objectList, values);
+// Functions
+const increasingOrderNameButton = document.querySelector('#increasing-name');
+const decreasingOrderNameButton = document.querySelector('#decreasing-name');
+const increasingOrderLastNameButton = document.querySelector('#increasing-lastname');
+const decreasingOrderLastNameButton = document.querySelector('#decreasing-lastname');
+const increasingOrderNickNameButton = document.querySelector('#increasing-nickname');
+const decreasingOrderNickNameButton = document.querySelector('#decreasing-nickname');
+const increasingOrderAgeButton = document.querySelector('#increasing-age');
+const decreasingOrderAgeButton = document.querySelector('#decreasing-age');
+const totalAgeButton = document.querySelector('#total-age');
+
+function increasingOrderName() {
+    people.sort((a, b) => a.firstName > b.firstName ? 1 : -1);
+
+    showPeople();
 }
 
-function decreasingOrder() {
-    values.sort((a, b) => a > b ? -1 : 1);
+function decreasingOrderName() {
+    people.sort((a, b) => a.firstName > b.firstName ? -1 : 1);
 
-    showValues(objectList, values);
+    showPeople();
 }
 
-function aCount() {
-    const count = values.reduce((count, value) => {
-        return count + (value.match(/a/g) || []).length;
-    }, 0);
+function increasingOrderLastName() {
+    people.sort((a, b) => a.lastName > b.lastName ? 1 : -1);
+
+    showPeople();
+}
+
+function decreasingOrderLastName() {
+    people.sort((a, b) => a.lastName > b.lastName ? -1 : 1);
+
+    showPeople();
+}
+
+function increasingOrderNickName() {
+    people.sort((a, b) => a.nickName > b.nickName ? 1 : -1);
+
+    showPeople();
+}
+
+function decreasingOrderNickName() {
+    people.sort((a, b) => a.nickName > b.nickName ? -1 : 1);
+
+    showPeople();
+}
+
+function increasingOrderAge() {
+    people.sort((a, b) => a.age > b.age ? 1 : -1);
+
+    showPeople();
+}
+
+function decreasingOrderAge() {
+    people.sort((a, b) => a.age > b.age ? -1 : 1);
+
+    showPeople();
+}
+
+function totalAge() {
+    const count = people.reduce((count, person) => count + person.age, 0);
     
     alert(count);
 }
 
-function shiftLetters(num) {
-    num = parseInt(num);
-    values.forEach(function(value, index) {
-        let result = '';
-
-        for(i = 0; i < value.length; i++) {
-            const charCode = value[i].charCodeAt() + num;
-
-            result += String.fromCharCode(charCode)
-        }
-
-        values[index] = result;
-    });
-
-    showValues(objectList, values);
-}
-
-object.addEventListener('submit', insertObject);
-increasingButton.addEventListener('click', increasingOrder);
-decreasingButton.addEventListener('click', decreasingOrder);
-acountButton.addEventListener('click', aCount);
-shiftButton.addEventListener('click', (e) => shiftLetters(`${shiftValue.value}`));
+increasingOrderNameButton.addEventListener('click', increasingOrderName);
+decreasingOrderNameButton.addEventListener('click', decreasingOrderName);
+increasingOrderLastNameButton.addEventListener('click', increasingOrderLastName);
+decreasingOrderLastNameButton.addEventListener('click', decreasingOrderLastName);
+increasingOrderNickNameButton.addEventListener('click', increasingOrderNickName);
+decreasingOrderNickNameButton.addEventListener('click', decreasingOrderNickName);
+increasingOrderAgeButton.addEventListener('click', increasingOrderAge);
+decreasingOrderAgeButton.addEventListener('click', decreasingOrderAge);
+totalAgeButton.addEventListener('click', totalAge);

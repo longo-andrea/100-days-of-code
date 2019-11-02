@@ -340,3 +340,10 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 - Today I started by customizing another JS30 challenge. I worked with array functions, built a web page where you can insert objects, that will be show, and apply some filter like Increasing/Decreasing order, count the number of 'a' letter, an shift all the letters by a shifting value. I also did a basic stylesheet.
 
 **Thoughts:** Tomorrow I want to customize the project by make it working with objects instead of arrays, add more functions and store the list in local storage.
+
+### Day 31: November 2, 2019
+
+**Today's Progress**: 
+- Today I went on with the challenge of Array Functions which I started yesterday. Actually I almost remake it by scratch, because instead of make it working with an array of items, I made it working with an array of objects, where the object represents a person, with his name, lastname, nickname and age. After that I wrote some functions which allow to re-order people by name, last name, nickname or age, and also added to a function that computes the total age of people. At the end I added a bit of style.
+
+**Thoughts:** Tomorrow I will start with another JS30 customizing project.
