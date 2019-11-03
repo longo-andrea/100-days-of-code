@@ -347,3 +347,10 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 - Today I went on with the challenge of Array Functions which I started yesterday. Actually I almost remake it by scratch, because instead of make it working with an array of items, I made it working with an array of objects, where the object represents a person, with his name, lastname, nickname and age. After that I wrote some functions which allow to re-order people by name, last name, nickname or age, and also added to a function that computes the total age of people. At the end I added a bit of style.
 
 **Thoughts:** Tomorrow I will start with another JS30 customizing project.
+
+### Day 32: November 3, 2019
+
+**Today's Progress**: 
+- Today I read a lot about JS Objects, in particular way I read about Prototype. In JS we can define a literal object, but in that way we can't reproduce it multiple times. So we can define a constructor functions that return an object with properties and methods, and call it with new keyword. In that way we waste a lot of resources, because the JS engine load in memory the constructor function (equals for all the objects) for each object we had instantiated. Thanks to prototype property (that is a pointer to prototype object), we can define a list of shared properties and methods. But as we know, shared things may bring problems, so we have to think wisely what we want to put inside function constructor and what in prototype object.
+
+**Thoughts:** Tomorrow I want to read about web sites accessibility.
