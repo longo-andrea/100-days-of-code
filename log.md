@@ -354,3 +354,14 @@ As I said it isn't a layout, but despite its simplicity I got that Flexbox isn't
 - Today I read a lot about JS Objects, in particular way I read about Prototype. In JS we can define a literal object, but in that way we can't reproduce it multiple times. So we can define a constructor functions that return an object with properties and methods, and call it with new keyword. In that way we waste a lot of resources, because the JS engine load in memory the constructor function (equals for all the objects) for each object we had instantiated. Thanks to prototype property (that is a pointer to prototype object), we can define a list of shared properties and methods. But as we know, shared things may bring problems, so we have to think wisely what we want to put inside function constructor and what in prototype object.
 
 **Thoughts:** Tomorrow I want to read about web sites accessibility.
+
+### Day 33: November 4, 2019
+
+**Today's Progress**: 
+- Today I read about accesibility. Accessibility is the practice of making your websites usable by as many people as possible, not concern just people with disabilities, but even people who use different type of devices, and also help web spiders to scan your websites. So building accesible sites bring several advantages, like wider audience, improve SEO and also raise your credibility.
+Besides accessibility isn't an addon, isn't a thing that can be add later, rather must be considered from the start of project, and should be test often. An important quote for developers "you are not your users", so start to learn how others use the web.  
+
+**Thoughts:** Tomorrow I want to read more about web sites accessibility.
+
+**Link to work:**
+- [What is accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility)
