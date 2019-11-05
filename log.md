@@ -365,3 +365,14 @@ Besides accessibility isn't an addon, isn't a thing that can be add later, rathe
 
 **Link to work:**
 - [What is accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility)
+
+### Day 34: November 5, 2019
+
+**Today's Progress**: 
+- Today I reading more about accesibility, and also completed a freeCodeCamp course about it. What I got is that when you focus to build a well organized web page with the right tags, much of the work is alredy done. All the descriptive images require an alt tag, useful for screen readers, and also for 'standard' user in the case the images won't download. Another common error is to choose headers by their visual appearance instead of their hierarchical order.
+
+
+**Thoughts:** Tomorrow I want to read more about web sites accessibility and start cloning a layout from dribble.
+
+**Link to work:**
+- [Free Code Camp](https://www.freecodecamp.org/learn/)
