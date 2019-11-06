@@ -376,3 +376,15 @@ Besides accessibility isn't an addon, isn't a thing that can be add later, rathe
 
 **Link to work:**
 - [Free Code Camp](https://www.freecodecamp.org/learn/)
+
+### Day 35: November 6, 2019
+
+**Today's Progress**: 
+- Today I start building a simple layout, I have choose one from dribble and made some changes because I don't want to do just a copy. I coded only some HTML, without styling it. I tried to focus on accessibility by choose the correct tag for each situation.
+I also read more about HTML tags that improve accessibility and performance.
+
+
+**Thoughts:** Tomorrow I want to read more about web sites accessibility and going on with layout.
+
+**Link to work:**
+- [Free Code Camp](https://www.freecodecamp.org/learn/)
