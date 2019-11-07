@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+.main-nav {
+  width: 80vw;
+  height: 6rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #303030;
+}
+
+.main-nav .logo-text {
+  width: 30%;
+}
+
+.main-nav .navbar {
+  width: 70%;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+.navbar li {
+  width: 25%;
+  float: left;
+  font-size: 1.3rem;
+}
+
+.logo-text {
+  font-size: 2rem;
+  text-align: center;
+  color: #f53022;
+}
+
+#content {
+  width: 80vw;
+  height: calc(100vh - 20rem);
+  margin: 0 auto;
+  padding: 0 7.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.description {
+  width: 40%;
+}
+
+.description p {
+  margin: 2rem 0;
+  font-size: 1.7rem;
+}
+
+.title-big {
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+
+.callAction {
+  width: 12rem;
+  height: 4rem;
+  background: #f53022;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.cover-image {
+  width: 60%;
+  position: relative;
+}
+
+.cover-image img {
+  width: 90%;
+}
+
+.cover-image figcaption {
+  width: 18rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 2rem 1.4rem;
+  background: #f53022;
+  border-radius: 15px;
+}
+
+.footer {
+  width: 80vw;
+  height: 14rem;
+  margin: 0 auto;
+  padding: 0 7.5%;
+}
+
+.footer .keypoint {
+  float: left;
+  width: 7.5rem;
+  height: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 4rem;
+  font-size: 1rem;
+  border: 0.5px solid #303030;
+  border-radius: 14px;
+}
+
+.footer .keypoint img {
+  width: 2.4rem;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

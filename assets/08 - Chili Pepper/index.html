@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta http-equiv="cache-control" content="no-cache" />
     <meta name="description" content="This web page talk about Chili Pepper" />
     <meta name="keywords" content="chili pepper, chili, pepper" />
     
     <title>Chili Pepper</title>
 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <nav>
-        <h1>Chili Pepper</h1>
-        <ul>
+    <nav class="main-nav">
+        <h1 class="logo-text">Chili Pepper</h1>
+        <ul class="navbar">
             <li>Home</li>
             <li>Store</li>
             <li>About Us</li>
@@ -26,26 +26,26 @@
     <main id="content">
 
         <div class="description">
-            <h2>Title</h2>
-            <p>Description</p>
-            <button>Call to action</button>
+            <h2 class="title-big">The best Chili Pepper in the world.</h2>
+            <p>This is an awesome Chili Pepper, trust us!</p>
+            <button class="callAction">Call to action</button>
         </div>
 
-        <figure>
-            <img src="" alt="Chili image">
-            <figcaption>Chili Description</figcaption>
+        <figure class="cover-image">
+            <img src="chili.jpg" alt="Chili image">
+            <figcaption>
+                The chili pepper is the fruit of plants from the genus Capsicum which are members of the nightshade family, Solanaceae.
+            </figcaption>
         </figure>
 
-        <div class="keypoints">
-            <span>Our keypoint 1</span>
-            <span>Our keypoint 2</span>
-            <span>Our keypoint 3</span>
-        </div>
-
     </main>
-
-    <footer>
-        Footer
+    
+    <footer class="footer">
+        <div class="keypoints">
+            <div class="keypoint"><img src="homemade.png" alt="Homemade" />Homemade</div>
+            <div class="keypoint"><img src="bio.png" alt="Bio" />Bio</div>
+            <div class="keypoint"><img src="cheap.png" alt="Cheap" />Cheap</div>
+        </div>
     </footer>
 
 </body>

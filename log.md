@@ -388,3 +388,14 @@ I also read more about HTML tags that improve accessibility and performance.
 
 **Link to work:**
 - [Free Code Camp](https://www.freecodecamp.org/learn/)
+
+### Day 36: November 7, 2019
+
+**Today's Progress**: 
+- Today I went on with layout I started yesterday. The focus was on accessibility, by using the correct HTML tags, and writing a text as descriptive as I can, and also worked on style, that last one is still raw, so tomorrow I will work more on it.
+I also read a lot about HTML accessibility, and the most important thing I learnt is that accessibility isn't an 'all or nothing' stuff, but each little step is important, so try to improve it step by step is a good practice.
+
+**Thoughts:** Tomorrow I want to read more about web sites accessibility and going on with layout.
+
+**Link to work:**
+- [Free Code Camp](https://www.freecodecamp.org/learn/)
