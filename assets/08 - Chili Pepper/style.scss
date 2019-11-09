@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,900&display=swap');
+
 $background: #fff;
 $color: #303030;
-
-$logo-color: #f53022;
-
+$logo-color: #ff0000;
 $primary : #f53022;
 $secondary : #fff;
+
+$border-radius: 14px;
 
 
 
@@ -12,7 +14,8 @@ $secondary : #fff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 body {
@@ -28,7 +31,7 @@ body {
 
     color: $color;
 
-    .logo-text {
+    .logo {
         width: 30%;
     }
     .navbar {
@@ -44,22 +47,57 @@ body {
         float: left;
 
         font-size: 1.3rem;
+
+        a {
+            color: $color;
+            text-decoration: none;
+            position: relative;
+
+            &.active::before, &:hover::before {
+                content: '';
+                width: .4rem;
+                height: .4rem;
+                position: absolute;
+                bottom: -.7rem;
+                left: calc(50% - .4rem);
+
+                background: $color;
+                border-radius: 50%;
+            }
+            
+            &:hover::before {
+                background: lighten($color, 15%);
+            }
+        }
+
+        &:last-child{
+            color: lighten($primary, 10%);
+        }
     }
 }
 
-.logo-text {
+.logo {
     font-size: 2rem;
+    font-weight: 900;
     text-align: center;
+    color: $logo-color;
+}
+
+.logo-text {
+    font-weight: 900;
     color: $logo-color;
 }
 
 #content {
     width: 80vw;
-    height: calc(100vh - 20rem);
+    min-height: calc(100vh - 20rem);
     margin: 0 auto;
     padding: 0 7.5%;
-    display: flex;
-    align-items: center;
+
+    #home & {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .description {
@@ -69,6 +107,7 @@ body {
         margin: 2rem 0;
 
         font-size: 1.7rem;
+        color: lighten($color, 15%);
     }
 
 }
@@ -79,15 +118,25 @@ body {
     font-size: 3rem;
 }
 
+.title-md {
+    margin: 1.5rem 0;
+
+    font-size: 2.2rem;
+}
+
 .callAction {
     width: 12rem;
     height: 4rem;
 
     background: $primary;
     border: none;
-    border-radius: 10px;
+    border-radius: $border-radius;
     font-size: 1.3rem;
     color: $secondary;
+
+    &:hover {
+        background: darken($primary, 10%);
+    }
 }
 
 .cover-image {
@@ -106,10 +155,97 @@ body {
         right: 1rem;
         padding: 2rem 1.4rem;
 
-        background: $primary;
-        border-radius: 15px;
+        background: rgba($primary, .9);
+        border-radius: $border-radius;
+        font-size: 1.1rem;
+        color: lighten($color, 100%);
+        
     }
-    
+}
+
+.cards {
+    margin: 6rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+    .card {
+        flex: 0 0 40%;
+        min-height: 35rem;
+        margin: 2rem 5%;
+        padding: 2rem 1.5rem;
+        
+
+        border: 1px solid $color;
+        border-radius: $border-radius;
+
+        figure {
+            margin: 2rem 0;
+            img {
+                display: block;
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            figcaption {
+                padding: 0 2rem;
+
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.buy-button {
+    width: 8rem;
+    margin-left: 2rem;
+    padding: calc(1rem + 2px) 0;
+
+    background: $background;
+    color: $color;
+    border: 1px solid $color;
+    border-radius: $border-radius;
+    font-size: 1.2rem;
+
+    &:hover {
+        background: darken($background, 5%);
+    }
+}
+
+.hot-scale {
+    display: inline-block;
+    margin-left: 2rem;
+    padding: 1rem 2rem;
+
+    border-radius: $border-radius;
+}
+
+.hot-scale-1 {
+    background: rgba(#75e307, .2);
+    border: 4px dashed #75e307;    
+}
+
+.hot-scale-2 {
+    background: rgba(#eeff00, .2);
+    border: 4px dashed #eeff00;    
+}
+
+.hot-scale-3 {
+    background: rgba(#fcd303, .2);
+    border: 4px dashed #fcd303;
+}
+
+.hot-scale-4 {
+    background: rgba(#ff8800, .2);
+    border: 4px dashed #ff8800;
+}
+
+.hot-scale-5 {
+    background: rgba(#ff0000, .2);
+    border: 4px dashed #ff0000;
 }
 
 .footer {
@@ -129,9 +265,8 @@ body {
         margin-right: 4rem;
 
         font-size: 1rem;
-
-        border: .5px solid $color;
-        border-radius: 14px;
+        border-radius: $border-radius;
+        box-shadow: 0 0 4px $color;
 
         img {
             width: 2.4rem;

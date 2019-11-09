@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 body {
@@ -23,7 +25,7 @@ body {
   color: #303030;
 }
 
-.main-nav .logo-text {
+.main-nav .logo {
   width: 30%;
 }
 
@@ -41,17 +43,51 @@ body {
   font-size: 1.3rem;
 }
 
-.logo-text {
+.navbar li a {
+  color: #303030;
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar li a.active::before, .navbar li a:hover::before {
+  content: '';
+  width: .4rem;
+  height: .4rem;
+  position: absolute;
+  bottom: -.7rem;
+  left: calc(50% - .4rem);
+  background: #303030;
+  border-radius: 50%;
+}
+
+.navbar li a:hover::before {
+  background: #565656;
+}
+
+.navbar li:last-child {
+  color: #f75e53;
+}
+
+.logo {
   font-size: 2rem;
+  font-weight: 900;
   text-align: center;
-  color: #f53022;
+  color: #ff0000;
+}
+
+.logo-text {
+  font-weight: 900;
+  color: #ff0000;
 }
 
 #content {
   width: 80vw;
-  height: calc(100vh - 20rem);
+  min-height: calc(100vh - 20rem);
   margin: 0 auto;
   padding: 0 7.5%;
+}
+
+#home #content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,6 +103,7 @@ body {
 .description p {
   margin: 2rem 0;
   font-size: 1.7rem;
+  color: #565656;
 }
 
 .title-big {
@@ -74,14 +111,23 @@ body {
   font-size: 3rem;
 }
 
+.title-md {
+  margin: 1.5rem 0;
+  font-size: 2.2rem;
+}
+
 .callAction {
   width: 12rem;
   height: 4rem;
   background: #f53022;
   border: none;
-  border-radius: 10px;
+  border-radius: 14px;
   font-size: 1.3rem;
   color: #fff;
+}
+
+.callAction:hover {
+  background: #da180a;
 }
 
 .cover-image {
@@ -99,8 +145,100 @@ body {
   bottom: 1rem;
   right: 1rem;
   padding: 2rem 1.4rem;
-  background: #f53022;
-  border-radius: 15px;
+  background: rgba(245, 48, 34, 0.9);
+  border-radius: 14px;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.cards {
+  margin: 6rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.cards .card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  min-height: 35rem;
+  margin: 2rem 5%;
+  padding: 2rem 1.5rem;
+  border: 1px solid #303030;
+  border-radius: 14px;
+}
+
+.cards .card figure {
+  margin: 2rem 0;
+}
+
+.cards .card figure img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards .card figure figcaption {
+  padding: 0 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.buy-button {
+  width: 8rem;
+  margin-left: 2rem;
+  padding: calc(1rem + 2px) 0;
+  background: #fff;
+  color: #303030;
+  border: 1px solid #303030;
+  border-radius: 14px;
+  font-size: 1.2rem;
+}
+
+.buy-button:hover {
+  background: #f2f2f2;
+}
+
+.hot-scale {
+  display: inline-block;
+  margin-left: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 14px;
+}
+
+.hot-scale-1 {
+  background: rgba(117, 227, 7, 0.2);
+  border: 4px dashed #75e307;
+}
+
+.hot-scale-2 {
+  background: rgba(238, 255, 0, 0.2);
+  border: 4px dashed #eeff00;
+}
+
+.hot-scale-3 {
+  background: rgba(252, 211, 3, 0.2);
+  border: 4px dashed #fcd303;
+}
+
+.hot-scale-4 {
+  background: rgba(255, 136, 0, 0.2);
+  border: 4px dashed #ff8800;
+}
+
+.hot-scale-5 {
+  background: rgba(255, 0, 0, 0.2);
+  border: 4px dashed #ff0000;
 }
 
 .footer {
@@ -129,8 +267,9 @@ body {
           justify-content: center;
   margin-right: 4rem;
   font-size: 1rem;
-  border: 0.5px solid #303030;
   border-radius: 14px;
+  -webkit-box-shadow: 0 0 4px #303030;
+          box-shadow: 0 0 4px #303030;
 }
 
 .footer .keypoint img {

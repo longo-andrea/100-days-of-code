@@ -386,9 +386,6 @@ I also read more about HTML tags that improve accessibility and performance.
 
 **Thoughts:** Tomorrow I want to read more about web sites accessibility and going on with layout.
 
-**Link to work:**
-- [Free Code Camp](https://www.freecodecamp.org/learn/)
-
 ### Day 36: November 7, 2019
 
 **Today's Progress**: 
@@ -397,5 +394,16 @@ I also read a lot about HTML accessibility, and the most important thing I learn
 
 **Thoughts:** Tomorrow I want to read more about web sites accessibility and going on with layout.
 
-**Link to work:**
-- [Free Code Camp](https://www.freecodecamp.org/learn/)
+### Day 37: November 8, 2019
+
+**Today's Progress**: 
+- I finished the home page of layout that was building, by adding styles and images. Read about how CSS and JS affect accessibility. Both of them don't impact the accessibility like HTML, but can really damage it. About CSS I learn that I should use the correct HTML tag for the purpose and eventually customize appearence with stylesheet. Obviously the styles have to be well thought, for example make a button appears like normal text, it's a big mistake. JavaScript have access to the DOM, so can change/delete or add elements. That doesn't mean that is a good practice. The webpage must be usable even if script isn't available.
+
+**Thoughts:** Tomorrow I want to read more about web sites accessibility and going on with layout.
+
+### Day 38: November 9, 2019
+
+**Today's Progress**: 
+- I read about WAI-ARIA. WAI-ARIA defining a set of HTML attributes that can be applied to elements to provide additional semantics and improve accessibility wherever it is lacking. There are three types. Role, that defines what an element is or does. For example role='navigation' that duplicate HTML5 <nav> tag. Properties that give to elements extra meaning, like aria-required="true" specifies that an input needs to be filled. States which define the current condition of the element, like aria-disabled="true".
+
+**Thoughts:** Tomorrow I want to read more about websites accessibility and finish with layout.
