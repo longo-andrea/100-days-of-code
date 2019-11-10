@@ -45,29 +45,30 @@ body {
     li {
         width: 25%;
         float: left;
+        position: relative;
 
         font-size: 1.3rem;
+        text-align: center;
 
         a {
             color: $color;
             text-decoration: none;
-            position: relative;
+        }
 
-            &.active::before, &:hover::before {
-                content: '';
-                width: .4rem;
-                height: .4rem;
-                position: absolute;
-                bottom: -.7rem;
-                left: calc(50% - .4rem);
+        &.active::before, &:hover::before {
+            content: '';
+            width: .4rem;
+            height: .4rem;
+            position: absolute;
+            bottom: -.7rem;
+            left: calc(50% - .4rem);
 
-                background: $color;
-                border-radius: 50%;
-            }
-            
-            &:hover::before {
-                background: lighten($color, 15%);
-            }
+            background: $color;
+            border-radius: 50%;
+        }
+        
+        &:hover::before {
+            background: lighten($color, 15%);
         }
 
         &:last-child{
@@ -93,17 +94,20 @@ body {
     min-height: calc(100vh - 20rem);
     margin: 0 auto;
     padding: 0 7.5%;
-
-    #home & {
-        display: flex;
+    
+    &.content-rowed {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
         align-items: center;
     }
 }
 
 .description {
-    width: 40%;
+    width: 100%;
 
     p {
+        width: 70%;
         margin: 2rem 0;
 
         font-size: 1.7rem;
@@ -140,19 +144,19 @@ body {
 }
 
 .cover-image {
-    width: 60%;
+    width: 100%;
 
     position: relative;
 
     img {
-        width: 90%;
+        width: 100%;
     }
 
     figcaption {
         width: 18rem;
         position: absolute;
-        bottom: 1rem;
-        right: 1rem;
+        bottom: -1rem;
+        right: -3rem;
         padding: 2rem 1.4rem;
 
         background: rgba($primary, .9);
@@ -224,28 +228,76 @@ body {
 }
 
 .hot-scale-1 {
-    background: rgba(#75e307, .2);
+    background: rgba(#75e307, .3);
     border: 4px dashed #75e307;    
 }
 
 .hot-scale-2 {
-    background: rgba(#eeff00, .2);
+    background: rgba(#eeff00, .3);
     border: 4px dashed #eeff00;    
 }
 
 .hot-scale-3 {
-    background: rgba(#fcd303, .2);
+    background: rgba(#fcd303, .3);
     border: 4px dashed #fcd303;
 }
 
 .hot-scale-4 {
-    background: rgba(#ff8800, .2);
+    background: rgba(#ff8800, .3);
     border: 4px dashed #ff8800;
 }
 
 .hot-scale-5 {
-    background: rgba(#ff0000, .2);
+    background: rgba(#ff0000, .3);
     border: 4px dashed #ff0000;
+}
+
+.img-md {
+    width: 400px;
+    margin: 5rem 0;
+}
+
+.img-round {
+    border-radius: 50%;
+}
+
+.contact {
+    grid-column: 1/3;
+    margin: 4rem 0;
+
+    label {
+        display: inline-block;
+        width: 12rem;
+        height: 2rem;
+        margin: .7rem 0;
+
+        font-size: 1.4rem;
+    }
+
+    input {
+        width: 16rem;
+        height: 2rem;
+    }
+
+    textarea {
+        margin-left: 12rem;
+    }
+
+    [type=submit] {
+        width: 12rem;
+        height: 2.5rem;
+        margin: 2rem 0;
+
+        background: $primary;
+        border: none;
+        border-radius: $border-radius;
+        font-size: 1.3rem;
+        color: $secondary;
+
+        &:hover {
+            background: darken($primary, 10%);
+        }
+    }
 }
 
 .footer {
@@ -273,4 +325,36 @@ body {
             margin-bottom: 1rem;
         }
     }
+}
+
+
+/* --------- PRINT --------- */
+
+@media print {
+
+    .main-nav, img, .footer {
+        display: none;
+    }
+
+    #content.content-rowed {
+        display: block;
+    }
+
+    .cards {
+        display: block;
+        
+        .card {
+        
+            width: 100%;
+
+            .buy-button {
+                display: none;
+            }
+        }
+    }
+
+    .contact {
+        display: none;
+    }
+
 }

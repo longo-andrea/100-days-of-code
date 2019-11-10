@@ -401,9 +401,10 @@ I also read a lot about HTML accessibility, and the most important thing I learn
 
 **Thoughts:** Tomorrow I want to read more about web sites accessibility and going on with layout.
 
-### Day 38: November 9, 2019
+### Day 39: November 10, 2019
 
 **Today's Progress**: 
-- I read about WAI-ARIA. WAI-ARIA defining a set of HTML attributes that can be applied to elements to provide additional semantics and improve accessibility wherever it is lacking. There are three types. Role, that defines what an element is or does. For example role='navigation' that duplicate HTML5 <nav> tag. Properties that give to elements extra meaning, like aria-required="true" specifies that an input needs to be filled. States which define the current condition of the element, like aria-disabled="true".
+- Completed Chili Peppers Layout. Finished the four main pages of the layout, and added some style. I tried to use the right HTML5 tags for each purpose. After that I had re-write  text, trying to be more concise possibile. At the end I validate my HTML with W3C Validator, so there are no errors into the markup. CSS side I tried to apply DRY principle (Don't Repeat Yourself), by naming classes for their function rather than their appearance. I worked also on print style, by removing some useless elements, like header and footer.At the last I tried to remove styles at all, to see how the web page appears in the case that CSS won't be download.
 
-**Thoughts:** Tomorrow I want to read more about websites accessibility and finish with layout.
+**Thoughts:** Tomorrow I'll finish the last couple of articles about accessibility and start working on mobile versions.
+
