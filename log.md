@@ -408,3 +408,10 @@ I also read a lot about HTML accessibility, and the most important thing I learn
 
 **Thoughts:** Tomorrow I'll finish the last couple of articles about accessibility and start working on mobile versions.
 
+### Day 40: November 11, 2019
+
+**Today's Progress**: 
+- I worked on mobile and tablet layout, it wasn't too difficult, I tried to work in the right way from the beginning so I only had to do some adjustment.
+- I also read some articles about Mobile Accessibility. That topic is more about javascript, because event like 'mousedown' and 'mouseup' couldn't be triggered by touch screen, so there are some alternatives like 'ontouchstart' and 'ontouchend'.
+
+**Thoughts:** Tomorrow I'll read more about accessibility and media queries.

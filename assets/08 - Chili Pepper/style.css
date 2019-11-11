@@ -248,7 +248,7 @@ body {
 }
 
 .img-md {
-  width: 400px;
+  width: 100%;
   margin: 5rem 0;
 }
 
@@ -350,6 +350,94 @@ body {
   }
   .contact {
     display: none;
+  }
+}
+
+/* --------- MEDIA --------- */
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  :root {
+    font-size: .8rem;
+  }
+  .main-nav {
+    width: 100%;
+  }
+  .main-nav #phone {
+    display: none;
+  }
+  .navbar li {
+    width: 33%;
+  }
+  #content {
+    width: 100%;
+    padding: 0 5%;
+  }
+  #content.content-rowed {
+    display: block;
+  }
+  .description {
+    text-align: center;
+  }
+  .description p {
+    width: 100%;
+    margin: 2rem 0;
+    font-size: 1rem;
+  }
+  .cover-image figcaption {
+    position: static;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  .cards .card {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .hot-scale {
+    display: block;
+    width: 14rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .buy-button {
+    display: block;
+    margin: 1rem auto;
+  }
+  .contact {
+    text-align: center;
+  }
+  .contact textarea {
+    margin: 0;
+  }
+  .footer {
+    width: 100%;
+    height: 10rem;
+    padding: 0 2rem;
+  }
+  .footer .keypoint {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 3.4rem;
+    font-size: .7rem;
+  }
+  .footer .keypoint:first-child {
+    margin-left: 2rem;
+  }
+  .footer .keypoint:last-child {
+    margin: 0;
+  }
+  .footer .keypoint img {
+    width: 2rem;
+    margin-bottom: .2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    font-size: 1rem;
+  }
+  .cards .card {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
   }
 }
 /*# sourceMappingURL=style.css.map */
