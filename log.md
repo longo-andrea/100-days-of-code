@@ -415,3 +415,11 @@ I also read a lot about HTML accessibility, and the most important thing I learn
 - I also read some articles about Mobile Accessibility. That topic is more about javascript, because event like 'mousedown' and 'mouseup' couldn't be triggered by touch screen, so there are some alternatives like 'ontouchstart' and 'ontouchend'.
 
 **Thoughts:** Tomorrow I'll read more about accessibility and media queries.
+
+### Day 41: November 12, 2019
+
+**Today's Progress**: 
+- I read about media queries, that allowtr to specify styles only for specific media types (or other device features). They can be also mixed togheter to obtain more complex selectors. An important keyword is only, that avoids older browsers to misunderstand selectors.
+- I learnt about mobile first approach, that is widely adopts. The idea is to starts from mobile layout and then scale the page when screen beomes bigger. The problem by starting from wider screens, is that the meaning of responsive layout isn't 'try to put all inside a small space'. That approach also helps you to select the really important things, and avoid uneeded stuff.
+
+**Thoughts:** Tomorrow I'll read more about accessibility and media queries.
