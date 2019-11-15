@@ -429,4 +429,19 @@ I also read a lot about HTML accessibility, and the most important thing I learn
 **Today's Progress**: 
 - I started with Vue course on Udemy. I found Vue really intuitive already from the beginning, the only thing that I didn't understand immediatly was that Vue, with curly branches syntax, print out only plain text, but it isn't a real problem. For now I made a couple of exercises, but they are "Hello World" level, so I have to do more practice beforee seeing the really power of this framework.
 
-**Thoughts:** Tomorrow I'll start with Vue tutorial on Udemy.
+**Thoughts:** Tomorrow I'll going on with Vue tutorial.
+
+### Day 43: November 14, 2019
+
+**Today's Progress**: 
+- I couldn't work on code. But I read some articles, and watch videos on web accessibility.
+
+**Thoughts:** Tomorrow I'll going on with Vue tutorial.
+
+### Day 44: November 15, 2019
+
+**Today's Progress**: 
+- Today I went on with Vue tutorial. I learned about computed and watch properties of Vue object. Computed property allow to define functions that are triggered when necessary, better say when something related to them change. Watch property, instead, allow to define a watchers that react when a specified data change. The normal methods are executed each times.
+
+**Thoughts:** Tomorrow I'll going on with Vue tutorial.
+
