@@ -445,3 +445,9 @@ I also read a lot about HTML accessibility, and the most important thing I learn
 
 **Thoughts:** Tomorrow I'll going on with Vue tutorial.
 
+### Day 45: November 16, 2019
+
+**Today's Progress**: 
+- Today I went on with Vue tutorial. I learnt some shorthand, which aren't too complex to remember. Than I also learnt how to dynamically add classes, and did some simple task where some boxes went stylized dinamycally when some event occur, like click.
+
+**Thoughts:** Tomorrow I'll going on with Vue tutorial.
