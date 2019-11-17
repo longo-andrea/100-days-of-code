@@ -451,3 +451,10 @@ I also read a lot about HTML accessibility, and the most important thing I learn
 - Today I went on with Vue tutorial. I learnt some shorthand, which aren't too complex to remember. Than I also learnt how to dynamically add classes, and did some simple task where some boxes went stylized dinamycally when some event occur, like click.
 
 **Thoughts:** Tomorrow I'll going on with Vue tutorial.
+
+### Day 46: November 17, 2019
+
+**Today's Progress**: 
+- Today I went on with Vue tutorial. I learnt about conditional statements, like if, else and else-if. They can be very useful, for example allow to hide (show) entire sections of document based on a expression's value. Actually v-if directive remove (add) completly the block from the DOM. If the purpose is to hide (show) a sections, there's v-show directive that toggles display property.
+
+**Thoughts:** Tomorrow I'll going on with Vue tutorial.
