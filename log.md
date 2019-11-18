@@ -458,3 +458,11 @@ I also read a lot about HTML accessibility, and the most important thing I learn
 - Today I went on with Vue tutorial. I learnt about conditional statements, like if, else and else-if. They can be very useful, for example allow to hide (show) entire sections of document based on a expression's value. Actually v-if directive remove (add) completly the block from the DOM. If the purpose is to hide (show) a sections, there's v-show directive that toggles display property.
 
 **Thoughts:** Tomorrow I'll going on with Vue tutorial.
+
+### Day 47: November 18, 2019
+
+**Today's Progress**: 
+- Today I went on with Vue tutorial. I did some exercises with if and else statements, then I learn about for statement, that is really helpful, for example to display a list that change dynamically.
+- I also found useful the template tag in HTML, that allows to load a block of markup without that being render. The template content can be rendered lately.
+
+**Thoughts:** Tomorrow I'll going on with Vue tutorial.
