@@ -466,3 +466,10 @@ I also read a lot about HTML accessibility, and the most important thing I learn
 - I also found useful the template tag in HTML, that allows to load a block of markup without that being render. The template content can be rendered lately.
 
 **Thoughts:** Tomorrow I'll going on with Vue tutorial.
+
+### Day 48: November 19, 2019
+
+**Today's Progress**: 
+- Today I went on with Vue tutorial. I did more exercises with v-if and v-else, and did some comparision with v-show, and I got that v-show don't allow v-else directive. I learnt how to loops over the arrays and objects with Vue, and also loop over the nested objects. The v-for directive can accept different parameters, the first is the value, the second is the key (index for arrays), and the third parameter is the index (for objects).
+
+**Thoughts:** Tomorrow I'll going on with Vue tutorial.
