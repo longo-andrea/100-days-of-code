@@ -473,3 +473,16 @@ I also read a lot about HTML accessibility, and the most important thing I learn
 - Today I went on with Vue tutorial. I did more exercises with v-if and v-else, and did some comparision with v-show, and I got that v-show don't allow v-else directive. I learnt how to loops over the arrays and objects with Vue, and also loop over the nested objects. The v-for directive can accept different parameters, the first is the value, the second is the key (index for arrays), and the third parameter is the index (for objects).
 
 **Thoughts:** Tomorrow I'll going on with Vue tutorial.
+
+### Day 49: November 20, 2019
+
+**Today's Progress**: 
+- I went on with Vue course on Udemy, I reached the fourth section out of 26 and finally started to build something.
+This section has the goal to build a simple textual game to train the basic knowledge from the previous sections, so DOM manipulation and looping.
+
+**Thoughts:** Tomorrow I'll going on with Vue tutorial.
+
+
+
+
+
