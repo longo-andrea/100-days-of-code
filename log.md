@@ -482,7 +482,17 @@ This section has the goal to build a simple textual game to train the basic know
 
 **Thoughts:** Tomorrow I'll going on with Vue tutorial.
 
+### Day 50: November 21, 2019
 
+**Today's Progress**: 
+- I went on with Vue project, so haven't learnt nothing new. The game it's a simple textual fight, where in alternation the player and the monster attack. Today I implemented the methods to start and give up the match.
 
+**Thoughts:** Tomorrow I'll going on with Vue project.
 
+### Day 51: November 22, 2019
+
+**Today's Progress**: 
+- I went on with Vue project. Today I implemented the methods to attack, and super-attack.
+
+**Thoughts:** Tomorrow I'll going on with Vue project, and maybe I'll finish it.
 
