@@ -496,3 +496,16 @@ This section has the goal to build a simple textual game to train the basic know
 
 **Thoughts:** Tomorrow I'll going on with Vue project, and maybe I'll finish it.
 
+### Day 52: November 23, 2019
+
+**Today's Progress**: 
+- I completed the Vue Textual Game I started this week. It isn't a well desiged game, and neither super engaging one. Anyway I learnt a lot from it, like how to show/hide DOM elements, how to update section of a web page, and even how to conditionally stilize it. Although I am still at the beginning I can see, a little, the power of Vue.
+
+**Thoughts:** Tomorrow I'll going on with Vue learnig.
+
+### Day 53: November 24, 2019
+
+**Today's Progress**: 
+- I went deeper with Vue instace. I learned how to make multiple Vue instances, and even how to accessing the Vue instance from outside.
+
+**Thoughts:** Tomorrow I'll going on with Vue learnig.
