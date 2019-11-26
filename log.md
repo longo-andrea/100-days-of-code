@@ -516,3 +516,11 @@ This section has the goal to build a simple textual game to train the basic know
 - I went deeper with Vue instance. I took a closer look to el and data properties of Vue instance, and also learned about ref attribute. I went deeper with methods, computed and watchers properties, try to understand their differences. With method and computed properties we can achieve the same result, but computed will cache the results so avoid to do a lot of computations, instead method will be invoked each time a re-render happens. Watch property can be useful when some data needs to change based on some other data, but it has been used wisely because the risk to write repetitive code is high.
 
 **Thoughts:** Tomorrow I'll going on with Vue learnig.
+
+### Day 55: November 26, 2019
+
+**Today's Progress**: 
+- Today I learned about template property. And got a small introduction about Vue components.
+- Start reading [JavaScript Design Pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+
+**Thoughts:** Tomorrow I'll going on with Vue learnig.
