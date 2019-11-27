@@ -524,3 +524,11 @@ This section has the goal to build a simple textual game to train the basic know
 - Start reading [JavaScript Design Pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
 **Thoughts:** Tomorrow I'll going on with Vue learnig.
+
+### Day 56: November 27, 2019
+
+**Today's Progress**: 
+- Today I learned about the life cycle of the Vue instance. It is divided into 4 main events: creation, mounting, updating destruction. Each one of these events have a before events, so actually there are 8 events. Eventually these events can be customize so for example we can do something before the DOM is update (if it make sense). 
+- Moreover, I read about Virtual DOM. I got an idea of what it is, but I have to read more beacause want to understand how it works 'under the hood'.
+
+**Thoughts:** Tomorrow I'll going on with Vue learnig.
