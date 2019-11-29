@@ -540,3 +540,11 @@ This section has the goal to build a simple textual game to train the basic know
 - Today I learned about a more real Vue Project Workflow. I learned how to setup a Vue project with vue-cli, which is a set of tools to boost a project managment. It's slightly different from what I did so far, but isn't complex at all, only need time to understand well what each part does.
 
 **Thoughts:** Tomorrow I'll going on with Vue by learning components.
+
+### Day 58: November 29, 2019
+
+**Today's Progress**: 
+- Today I started to study Vue components. They allow to define a specific item that it can be repeated into our app several times, and each one of them that we put into our app have its own memory.
+For that I learned so far, I actually appreciated that the components enhance code readability, and performance by applying DRY principle.
+
+**Thoughts:** Tomorrow I'll going on with Vue components.
