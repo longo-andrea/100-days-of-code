@@ -548,3 +548,13 @@ This section has the goal to build a simple textual game to train the basic know
 For that I learned so far, I actually appreciated that the components enhance code readability, and performance by applying DRY principle.
 
 **Thoughts:** Tomorrow I'll going on with Vue components.
+
+### Day 59: November 30, 2019
+
+**Today's Progress**: 
+- Today I went on with Vue components. I learned about local registration of a component, and the difference against the global one. I got that global components are the same of global variables, and global vars are never a good thing, because they increase the dependency between modules, and there is also a risk of naming collisions.
+So the local registration is often the best choice.
+- I went on with JavaScript Design Patterns. I understood the importance of a design pattern, and the help which it give to solve a problem in the best way possible. In the web can be found tons of design patterns, and the book gives some useful tips to check if a pattern is actually useful.
+
+
+**Thoughts:** Tomorrow I'll going on with Vue components.
