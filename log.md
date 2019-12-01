@@ -556,5 +556,12 @@ For that I learned so far, I actually appreciated that the components enhance co
 So the local registration is often the best choice.
 - I went on with JavaScript Design Patterns. I understood the importance of a design pattern, and the help which it give to solve a problem in the best way possible. In the web can be found tons of design patterns, and the book gives some useful tips to check if a pattern is actually useful.
 
+**Thoughts:** Tomorrow I'll going on with Vue components.
+
+### Day 60: December 1, 2019
+
+**Today's Progress**: 
+- Today I completed introduction of Vue components. I learned about some naming convention which be offer by Vue, and also how to style a Vue component. In styling components 'scoped' keyworkd has a main importance, without it we can obtain unexpected behabiourvs.
+- I went on with JavaScript Design Patterns. I learned about anti-patterns, that ar equally important as good ones. Anti-patterns describe a bad-practices, bad-solutions that should be recognised and avoided. An anti-pattern can come out from a bad apply of a perfect design-pattern.
 
 **Thoughts:** Tomorrow I'll going on with Vue components.
