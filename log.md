@@ -565,3 +565,11 @@ So the local registration is often the best choice.
 - I went on with JavaScript Design Patterns. I learned about anti-patterns, that ar equally important as good ones. Anti-patterns describe a bad-practices, bad-solutions that should be recognised and avoided. An anti-pattern can come out from a bad apply of a perfect design-pattern.
 
 **Thoughts:** Tomorrow I'll going on with Vue components.
+
+### Day 61: December 2, 2019
+
+**Today's Progress**: 
+- Today I went on with communication between Vue components. There are situations where there is need to pass information between components, for example from a parent component to its child. With v-bind in parent element we can pass to child element a data field, then child element catch data with props and it can be use it like any other data value.
+- I went on with JavaScript Design Patterns. I started learning the basics of Constructor Pattern, which is one of the easiest, one thing worth of noting is that by definig a constructor object by a function, all the methods are redefined for each instance of that object, and in most cases we wouldn't, so thanks to prototype property we can define some shared methods.
+
+**Thoughts:** Tomorrow I'll going on with communication between Vue components.
