@@ -573,3 +573,11 @@ So the local registration is often the best choice.
 - I went on with JavaScript Design Patterns. I started learning the basics of Constructor Pattern, which is one of the easiest, one thing worth of noting is that by definig a constructor object by a function, all the methods are redefined for each instance of that object, and in most cases we wouldn't, so thanks to prototype property we can define some shared methods.
 
 **Thoughts:** Tomorrow I'll going on with communication between Vue components.
+
+### Day 62: December 3, 2019
+
+**Today's Progress**: 
+- Today I went on with communication between Vue components. I learned about props, how to validate them, and how to make them required or assign default value. Actually I have to do some more exercises because there are a lot of things, and I didn't got them well.
+- I read about Singleton and Module Design Patterns.
+
+**Thoughts:** Tomorrow I'll going on with communication between Vue components.
