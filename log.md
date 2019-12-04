@@ -581,3 +581,10 @@ So the local registration is often the best choice.
 - I read about Singleton and Module Design Patterns.
 
 **Thoughts:** Tomorrow I'll going on with communication between Vue components.
+
+### Day 63: December 4, 2019
+
+**Today's Progress**: 
+- Today I went on with communication between Vue components. I learned about custom events for child to parent communication, and got a little introduction of Callback functions.
+
+**Thoughts:** Tomorrow I'll going on with communication between Vue components.
