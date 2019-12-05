@@ -588,3 +588,12 @@ So the local registration is often the best choice.
 - Today I went on with communication between Vue components. I learned about custom events for child to parent communication, and got a little introduction of Callback functions.
 
 **Thoughts:** Tomorrow I'll going on with communication between Vue components.
+
+### Day 64: December 5, 2019
+
+**Today's Progress**: 
+- Today I went on with communication between Vue components. I learned about communication between sibling components, and event bus method for communication.
+- I read about some implementations of Module Design pattern. The I studied the Revealing Module Pattern, that is an update for Module Pattern.
+- I studied the Observer Pattern, also know ad Publish/Subscribe Pattern. This last one has huge advatages, encourages developer to code decoupled modules, and force to think hard to relationship between different parts. On the other hand, is difficult to implement, because the publishers may make an assumption that a specific subscribers are listening to them, and maybe they don't.
+
+**Thoughts:** Tomorrow I'll going on with advanced component usage.
