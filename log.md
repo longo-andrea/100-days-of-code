@@ -597,3 +597,11 @@ So the local registration is often the best choice.
 - I studied the Observer Pattern, also know ad Publish/Subscribe Pattern. This last one has huge advatages, encourages developer to code decoupled modules, and force to think hard to relationship between different parts. On the other hand, is difficult to implement, because the publishers may make an assumption that a specific subscribers are listening to them, and maybe they don't.
 
 **Thoughts:** Tomorrow I'll going on with advanced component usage.
+
+### Day 65: December 6, 2019
+
+**Today's Progress**: 
+- Today I did some exercise about Vue components and communications between them. So I completed the section of the course about introduction of Vue components, now I'm going into section of advanced usage.
+- I read about some simple implementations of Publisher/Subscriber design pattern.
+
+**Thoughts:** Tomorrow I'll going on with advanced component usage.
