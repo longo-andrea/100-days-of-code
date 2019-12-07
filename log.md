@@ -605,3 +605,10 @@ So the local registration is often the best choice.
 - I read about some simple implementations of Publisher/Subscriber design pattern.
 
 **Thoughts:** Tomorrow I'll going on with advanced component usage.
+
+### Day 66: December 7, 2019
+
+**Today's Progress**: 
+- Today I did exercise with Vue components, and started to understanding better how they work. Still some confusion about communication between them, so tomorrow I'll dome more exercises.
+
+**Thoughts:** Tomorrow I'll going on with advanced component usage.
