@@ -612,3 +612,12 @@ So the local registration is often the best choice.
 - Today I did exercise with Vue components, and started to understanding better how they work. Still some confusion about communication between them, so tomorrow I'll dome more exercises.
 
 **Thoughts:** Tomorrow I'll going on with advanced component usage.
+
+### Day 67: December 8, 2019
+
+**Today's Progress**: 
+- Today I did exercises with communication between Vue components, now I got how bus events works and how to pass data between components.
+- I learned about slots. They allow to pass an HTML code snippet from parent to child. The noting point is that the style work only if applied from child component.
+- I took a brief look to Mediator, Prototype, Facade and Factory design patterns. In the next days I'll finish the overview of main design patterns and then I'll dive into one of them.
+
+**Thoughts:** Tomorrow I'll going on with advanced component usage.
