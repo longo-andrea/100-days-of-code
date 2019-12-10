@@ -628,3 +628,10 @@ So the local registration is often the best choice.
 - Today I completed the section about slots, I learned about multiple slots (by naming them) and the default slots. I also did some exercise on them, but honestly I have some problem to understand when the slots are really useful.
 
 **Thoughts:** Tomorrow I'll going on with dynamic components.
+
+### Day 69: December 10, 2019
+
+**Today's Progress**: 
+- Today I did some exercises with slots and then started reading about dynamic components.
+
+**Thoughts:** Tomorrow I'll going on with dynamic components.
