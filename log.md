@@ -621,3 +621,10 @@ So the local registration is often the best choice.
 - I took a brief look to Mediator, Prototype, Facade and Factory design patterns. In the next days I'll finish the overview of main design patterns and then I'll dive into one of them.
 
 **Thoughts:** Tomorrow I'll going on with advanced component usage.
+
+### Day 68: December 9, 2019
+
+**Today's Progress**: 
+- Today I completed the section about slots, I learned about multiple slots (by naming them) and the default slots. I also did some exercise on them, but honestly I have some problem to understand when the slots are really useful.
+
+**Thoughts:** Tomorrow I'll going on with dynamic components.
