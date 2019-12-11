@@ -635,3 +635,12 @@ So the local registration is often the best choice.
 - Today I did some exercises with slots and then started reading about dynamic components.
 
 **Thoughts:** Tomorrow I'll going on with dynamic components.
+
+### Day 70: December 11, 2019
+
+**Today's Progress**: 
+- Today I learned the Vue keyword 'is' that defines component type, so it allows to define a dynamic components. By default when we switch between one component to another, the first one is destroyed, sometimes is what we want, but sometimes don't. Here another Vue keyword comes in help '<keep-alive> ... </keep-alive>', by wrapping content inside keep-alive tag, the component state will be store, and when we switch back to it we could find the previous state.
+- I finished with advanced component usage, by completing the assignment of the section.
+- I read about Mixin and Decorator pattern.
+
+**Thoughts:** Tomorrow I'll going on with second project of Vue course.
