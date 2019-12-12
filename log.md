@@ -644,3 +644,10 @@ So the local registration is often the best choice.
 - I read about Mixin and Decorator pattern.
 
 **Thoughts:** Tomorrow I'll going on with second project of Vue course.
+
+### Day 71: December 12, 2019
+
+**Today's Progress**: 
+- Today I started with second Vue project proposed by the course I following on Udemy. I had set-up the project's folder, defined all the componets I'll need and included into main App. The I started by implementing the first component that shows some quotes by the slots method.
+
+**Thoughts:** Tomorrow I'll going on with second project of Vue course.
