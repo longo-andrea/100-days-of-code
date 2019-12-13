@@ -651,3 +651,10 @@ So the local registration is often the best choice.
 - Today I started with second Vue project proposed by the course I following on Udemy. I had set-up the project's folder, defined all the componets I'll need and included into main App. The I started by implementing the first component that shows some quotes by the slots method.
 
 **Thoughts:** Tomorrow I'll going on with second project of Vue course.
+
+### Day 72: December 13, 2019
+
+**Today's Progress**: 
+- Today I completed second Vue project of the course. In this section I learned several methods to passing data (or events) between components, with props and slots, and put all togheter into one single app.
+
+**Thoughts:** Tomorrow I'll start the section about forms, and how it allows to handling user input.
