@@ -658,3 +658,12 @@ So the local registration is often the best choice.
 - Today I completed second Vue project of the course. In this section I learned several methods to passing data (or events) between components, with props and slots, and put all togheter into one single app.
 
 **Thoughts:** Tomorrow I'll start the section about forms, and how it allows to handling user input.
+
+### Day 73: December 14, 2019
+
+**Today's Progress**: 
+- Today I started the section about form handling with Vue. I learned how to get user's data from <input> tag and how to pre-populating fields. Then I learned also how to create custom control and how to handle form submitting.
+
+- I read about Flyweight and MVC desing patterns.
+
+**Thoughts:** Tomorrow I'll start the section about forms, and how it allows to handling user input.
