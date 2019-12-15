@@ -666,4 +666,11 @@ So the local registration is often the best choice.
 
 - I read about Flyweight and MVC desing patterns.
 
-**Thoughts:** Tomorrow I'll start the section about forms, and how it allows to handling user input.
+**Thoughts:** Tomorrow I'll start the section about directives.
+
+### Day 74: December 15, 2019
+
+**Today's Progress**: 
+- Today I learned how Vue directives work, and some examples of them, like v-text and v-html (I think that are useless). Then I studied custom directives, how to make own directives and how to pass values to them.
+
+**Thoughts:** Tomorrow I'll start the section about filters and mixins.
