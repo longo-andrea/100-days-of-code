@@ -674,3 +674,11 @@ So the local registration is often the best choice.
 - Today I learned how Vue directives work, and some examples of them, like v-text and v-html (I think that are useless). Then I studied custom directives, how to make own directives and how to pass values to them.
 
 **Thoughts:** Tomorrow I'll start the section about filters and mixins.
+
+### Day 75: December 16, 2019
+
+**Today's Progress**: 
+- Today I learned about Vue filters and mixins. Filters can allow us to make filter, for some properties (like reversing a text), but have some limits, so I got that computed property are often a better choice. Mixins are a good way to share blocks of code between components, without code repetiotion.
+
+
+**Thoughts:** Tomorrow I'll start the section about filters and mixins.
