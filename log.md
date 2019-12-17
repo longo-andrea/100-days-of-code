@@ -680,5 +680,11 @@ So the local registration is often the best choice.
 **Today's Progress**: 
 - Today I learned about Vue filters and mixins. Filters can allow us to make filter, for some properties (like reversing a text), but have some limits, so I got that computed property are often a better choice. Mixins are a good way to share blocks of code between components, without code repetiotion.
 
+**Thoughts:** Tomorrow I'll start with animations and transitions.
 
-**Thoughts:** Tomorrow I'll start the section about filters and mixins.
+### Day 76: December 17, 2019
+
+**Today's Progress**: 
+- Today I started studying Vue transitions and animations, how they work and how to setup them. I did some exercises about them, they are quite simple.
+
+**Thoughts:** Tomorrow I'll going on with animations and transitions.
