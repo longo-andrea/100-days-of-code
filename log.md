@@ -688,3 +688,10 @@ So the local registration is often the best choice.
 - Today I started studying Vue transitions and animations, how they work and how to setup them. I did some exercises about them, they are quite simple.
 
 **Thoughts:** Tomorrow I'll going on with animations and transitions.
+
+### Day 77: December 18, 2019
+
+**Today's Progress**: 
+- Today I completed animations and transitions section. I learned about multiple elements transition and how to animate lists with <transition-group> tag.
+
+**Thoughts:** Tomorrow I'll going on with Vue-resource to connect via http.
