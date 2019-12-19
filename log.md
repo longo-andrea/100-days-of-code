@@ -695,3 +695,12 @@ So the local registration is often the best choice.
 - Today I completed animations and transitions section. I learned about multiple elements transition and how to animate lists with <transition-group> tag.
 
 **Thoughts:** Tomorrow I'll going on with Vue-resource to connect via http.
+
+### Day 78: December 19, 2019
+
+**Today's Progress**: 
+- Today I completed the section about vue-resoruce. I learned how to setup vue-resource (quite simple), how to send data to a server with post, and how to get data from a server with get and handle the response. Then I learned how to create custom resoures.
+
+- I worked with Firebase, that is a NoSQL database, really fast to setup and to serve data.
+
+**Thoughts:** Tomorrow I'll start with how to routing in a VueJS application.
