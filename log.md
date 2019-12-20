@@ -704,3 +704,10 @@ So the local registration is often the best choice.
 - I worked with Firebase, that is a NoSQL database, really fast to setup and to serve data.
 
 **Thoughts:** Tomorrow I'll start with how to routing in a VueJS application.
+
+### Day 79: December 20, 2019
+
+**Today's Progress**: 
+- Today I started with section about routing in a VueJS app. I learned how to setup vue-router, how to load routes, setting up parameters and reacting to changes in route parameters. I found vue-route really powerful, but I don't got it well, I'll have to do more exercices.
+
+**Thoughts:** Tomorrow I'll going on with routing in a VueJS application.
