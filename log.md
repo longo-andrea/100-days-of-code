@@ -718,3 +718,11 @@ So the local registration is often the best choice.
 - Today I went on with routing in Vue by learning about child routes, and other more stuff like how to using query parameters, how to animating routes transition and how to protecting routes with guards. Then I also learned about lazy loading of routes, that is a really power method to enhance performance.
 
 **Thoughts:** Tomorrow I'll start with Vuex.
+
+### Day 81: December 22, 2019
+
+**Today's Progress**: 
+- Today I started with Vuex.
+
+**Thoughts:** Tomorrow I'll going on with Vuex.
+
