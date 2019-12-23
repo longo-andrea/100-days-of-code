@@ -722,7 +722,15 @@ So the local registration is often the best choice.
 ### Day 81: December 22, 2019
 
 **Today's Progress**: 
-- Today I started with Vuex.
+- Today I started with Vuex. Vuex is a state management pattern (and a library). It's useful when the application start to become big.
 
 **Thoughts:** Tomorrow I'll going on with Vuex.
 
+### Day 82: December 23, 2019
+
+**Today's Progress**: 
+- Today I completed Vuex module. I learned about getters, how to use actions, and did some basics exercises.
+
+- I studied Decorator and Proxy Design pattern, and implemented with Java.
+
+**Thoughts:** Tomorrow I'll start with final project of the course.
