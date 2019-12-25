@@ -734,3 +734,22 @@ So the local registration is often the best choice.
 - I studied Decorator and Proxy Design pattern, and implemented with Java.
 
 **Thoughts:** Tomorrow I'll start with final project of the course.
+
+### Day 83: December 24, 2019
+
+**Today's Progress**: 
+- Today I started with final Vue project of Udemy course, and I'll finish it in 3 days. I have to make a simple stock trader, actually the point is only to put all together. No noting points, I just setup up the workspace, create the components and set the routes.
+
+**Thoughts:** Tomorrow I'll going on with final project of the course.
+
+### Day 84: December 25, 2019
+
+**Today's Progress**: 
+- Today I went on with final Vue project. Made the header and navigation components, then I set up the stock component, and the stocks page.
+
+**Thoughts:** Tomorrow I'll going on with final project of the course.
+
+
+
+
+
