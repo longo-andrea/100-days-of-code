@@ -749,6 +749,13 @@ So the local registration is often the best choice.
 
 **Thoughts:** Tomorrow I'll going on with final project of the course.
 
+### Day 85: December 26, 2019
+
+**Today's Progress**: 
+- Today I continued with the final Vue project. I started working on the portfolio page and I got stuck a bit, because I had to work with Vuex and I haven't figured it out yet.
+
+**Thoughts:** Tomorrow I'll finish on with final project of the course.
+
 
 
 
