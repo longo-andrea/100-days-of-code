@@ -763,6 +763,15 @@ So the local registration is often the best choice.
 
 **Thoughts:** Tomorrow I'll going on with the bonus modules, where I'll have to do some exercises.
 
+### Day 87: December 28, 2019
+
+**Today's Progress**: 
+- Today I learned about Vue devtools. It is a Chrome extension that add some interesting features to standard developer tools, useful during Vue app development.
+
+- I worked on my personal webpage.
+
+**Thoughts:** Tomorrow I'll going on with my personal webpage.
+
 
 
 
