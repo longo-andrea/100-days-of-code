@@ -786,6 +786,20 @@ So the local registration is often the best choice.
 
 **Thoughts:** Tomorrow I'll going on with my personal webpage.
 
+### Day 90: December 31, 2019
+
+**Today's Progress**: 
+- I worked on my personal webpage.
+
+**Thoughts:** Tomorrow I'll going on with my personal webpage.
+
+### Day 91: January 1, 2020
+
+**Today's Progress**: 
+- I worked on my personal webpage.
+
+**Thoughts:** Tomorrow I'll going on with my personal webpage.
+
 
 
 
