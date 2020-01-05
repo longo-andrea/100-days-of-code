@@ -800,6 +800,36 @@ So the local registration is often the best choice.
 
 **Thoughts:** Tomorrow I'll going on with my personal webpage.
 
+### Day 92: January 2, 2020
+
+**Today's Progress**: 
+- I worked on my personal webpage.
+
+**Thoughts:** Tomorrow I'll going on with my personal webpage.
+
+### Day 93: January 3, 2020
+
+**Today's Progress**: 
+- I worked on my personal webpage.
+
+**Thoughts:** Tomorrow I'll going on with my personal webpage.
+
+### Day 94: January 4, 2020
+
+**Today's Progress**: 
+- I worked on my personal webpage.
+
+**Thoughts:** Tomorrow I'll going on with my personal webpage.
+
+### Day 95: January 5, 2020
+
+**Today's Progress**: 
+- I worked on my personal webpage.
+
+**Thoughts:** Tomorrow I'll going on with my personal webpage.
+
+
+
 
 
 
